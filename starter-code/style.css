@@ -1,3 +1,86 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+nav {
+	background: #808080;
+}
+
+a {
+	display: block;
+	background: #ffbf00;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 35px;
+	float: left;
+}
+
+a:hover {
+	background: #ee5f3c;
+}
+
+#content {
+
+}
+
+.board {
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin: 8%;
+	float: left;
+}
+
+.card {
+	background-color: #ffff00;
+	width: 150px;
+	height: 200px;
+	margin: 0 0 10% 15%;
+	border: 1px solid #000;
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1.2;
+	color: rgb(2, 132, 130);
+	padding: 0;
+	margin: 0;
+}
+		
+h2 {
+	font-size: 26px;
+	line-height: 1.2;
+	color: #ffd700;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.name {
+  color: #ff0000;
+}
+
+footer {
+	background: #808080;
+	text-align: center;
+}
