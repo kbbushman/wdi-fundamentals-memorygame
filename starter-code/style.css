@@ -6,6 +6,8 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 .clearfix:after {
@@ -19,9 +21,10 @@ body {
 
 nav {
 	background: #808080;
+	margin: 0 0 40px;
 }
 
-a {
+nav a {
 	display: block;
 	background: #ffbf00;
 	color: #ffffff;
@@ -35,24 +38,25 @@ a:hover {
 }
 
 #content {
-
+	max-width: 880px;
+	margin: 0 auto;
 }
 
 .board {
 	display: inline-block;
 	width: 50%;
 	height: 50%;
-	margin: 8%;
+	margin: 8% 0 8% 8%;
 	float: left;
 }
 
 .card {
-	background-color: #ffff00;
+	background: url(http://k2sites.com/ga-wdi/images/bg-card.jpg) center center no-repeat; /* #ffff00 */
 	width: 150px;
-	height: 200px;
-	margin: 0 0 10% 15%;
+	height: 210px;
+	margin: 0 15% 10% 0;
 	border: 1px solid #000;
-	border-radius: 10px;
+/*	border-radius: 10px; */
 	display: inline-block;
 	float: left;
 }
@@ -83,4 +87,6 @@ p {
 footer {
 	background: #808080;
 	text-align: center;
+	padding: 20px 0	;
+	margin: 0;
 }
